@@ -1,0 +1,119 @@
+<!-- Design a webpage  similar to this layout in the picture. 
+you can add your own elements like headings paragraphs or images etc..
+Aim of this task is to make you try all the properties we learnt.
+Feel free to make changes to the layout...  -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Flexbox</title>
+    <link href="index.css" rel="stylesheet" />
+  </head>
+    <!-- Flexbox -->
+    <div class="flexbox">
+      <div class="title">
+        <h1>The worlds best waffles</h1>
+        <p>Follow this simple recipe to the worlds best waffles. Crunchy on the outside and soft on the inside. Just as a waffle should be to be perfect. </p>
+      </div>
+    <!-- Making the three boxes in the middle into its own section with a flex of row to display the items side by side. -->
+    <section class="tinybox">
+      <!-- Ingredients -->
+      <div class="ingredients">
+        <h1>Ingredients:</h1>
+        <table>
+        <tr>
+          <th>Amount:</th>
+          <th>Ingredient:</th>
+        </tr>
+        <tr>
+          <td>2</td>
+          <td>eggs</td>
+        </tr>
+        <tr>
+          <td>1dl</td>
+          <td>Sugar</td>
+        </tr>
+        <tr>
+          <td>2dl</td>
+          <td>Sour milk</td>
+         </tr>
+         <tr>
+          <td>2,5dl</td>
+          <td>Whole milk</td>
+        </tr>
+        <tr>
+          <td>350g</td>
+          <td>Flour</td>
+        </tr>
+        <tr>
+          <td>1ts</td>
+          <td>Baking powder</td>
+        </tr>
+        <tr>
+          <td>½ts</td>
+          <td>Baking soda</td>
+        </tr>
+        <tr>
+          <td>1ts</td>
+          <td>Vanilla sugar</td>
+        </tr>
+        <tr>
+          <td>½ts</td>
+          <td>Cardamom</td>
+        </tr>
+        <tr>
+          <td>125g</td>
+          <td>Melted butter</td>
+        </tr>
+        <tr>
+          <td colspan="2" style="padding-top:5px;">To make it even better you can add fresh berries and whipped cream as toppings on your waffle serving.</td>
+        </tr>
+        </table>
+      </div>
+      <!-- /Ingredients -->
+      <!-- Step by step -->
+      <div class="steps">
+        <h1>Step by step:</h1>
+       <ol>
+        <li>
+          Start by whisking sugar and eggs well together until you get a cream like consistency. Then stir in the milks to the mix until it is nicely blended.
+        </li>
+        <li>
+          Mix the dry ingredients together in a separate bowl, then slowly add the dry mix into the wet mix - while stirring the batter to reduce lumps. And stir until the mix is evenly combined and lump free.
+        </li>
+        <li>
+          Let the batter swell for 15 minutes. Or even longer if you have time and patience, the more it swells the fuller the waffle will be. Turn on the waffle iron on medium heat so it can prewarm while the batter swells.
+        </li>
+        <li>
+          Add the melted butter to the mix and stir until combined. <em>(Very important to taste test the batter here)</em>
+        </li>
+        <li>
+          Add butter or oil on the iron between each waffle to avoid stickiness. And pour a little batter into the iron. Let the waffles turn golden for the best experience of both crunch and soft.
+        </li>
+        <li>
+          Add butter and jam to your hearts content - <b>and enjoy!</b>
+        </li>
+       </ol>
+      </div>
+      <!-- /Step by step -->
+      <!-- Image -->
+      <div class="image">
+        <img src="waffles.png" alt="A tower of waffles on a plate">
+      </div>
+    </section>  
+    <!-- /Image -->
+    <!-- Autograph -->
+      <div class="autograph">
+          <h3>Recipe by Julie</h3>
+      </div>
+    </div>
+    <!-- /Autograph -->
+    <!-- /Flexbox -->
+  </body>
+</html>
+
+
+<!-- Layout is good, It would be nice if it occupies full height.. I see white space at bottom of the page. Also work on responsive website. It breaks when you check in inspect tool.-->
